@@ -20,7 +20,7 @@ intents.message_content = True
 handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w')
 
 # Init Bot Commands
-bot = commands.Bot(command_prefix='$', intents=intents)
+#bot = commands.Bot(command_prefix='$', intents=intents)
 
 # Create the client class
 class MyClient(discord.Client):
